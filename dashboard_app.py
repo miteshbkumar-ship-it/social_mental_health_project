@@ -212,7 +212,7 @@ with tab3:
         y="Age",
         color="Social_Media_Platform",
         hover_data=["User_ID", "Gender", "Wellbeing_Score"],
-        size="Daily_Screen_Time(hrs)",
+        size="Wellbeing_Score",
     )
     st.plotly_chart(fig1, use_container_width=True)
     st.markdown(
